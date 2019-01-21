@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+ Africa Nerd: Tic Toe Game App - New Invitation
+{% endblock %}
+
+
+{% block content %}
+<h1>New Game Invitation</h1>
+    <form method="post" action="{% url 'player_new_invitation' %}">
+         {{ form | crispy }}
+
+        {% csrf_token %}
+        <button type="submit" class="btn btn-success">Send the invitation</button>
+    </form>
+{% endblock %}
