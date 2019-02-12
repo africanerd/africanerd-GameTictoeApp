@@ -1,6 +1,8 @@
 # africanerd-GameTictoeApp
  Application Name: AfricaNerd - Tic Toe Game App
  
+ Application link - http://django-env1.eacpi8rhpw.us-east-1.elasticbeanstalk.com/
+ 
  Description: The app consists of thre main parts:
     1. A public site that lets people play the tic toe game 1 vs 1
     2. Players can send and accept invitations from other player
